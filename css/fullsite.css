@@ -1,0 +1,71 @@
+body{
+	width:100%;
+	height:100%;
+	background: #333333;
+}
+
+div#banner{
+	position: absolute;
+	width: 80%;
+	height: 10%;
+	left: 15%;
+	margin-left:5px;
+	background: #CD4F0B;
+	border: 6px solid black;
+	border-bottom: 3px solid black;
+	border-radius: 0px 40px 0px 0px;
+}
+
+div#badge{
+	position: absolute;
+	width: 10%;
+	height: 10%;
+	left: 5%;
+	background: #10A834;
+	border: 6px solid black;
+	border-bottom: 3px solid black;
+	border-radius: 40px 0px 0px 0px;
+}
+
+div#navigation{
+	position: absolute;
+	width: 10%;
+	height: 80%;
+	top: 11%;
+	left: 5%;
+	background: #CD4F0B;
+	border: 6px solid black;
+	border-radius: 0px 0px 0px 270px;
+	margin-top: 3px;
+}
+
+input[type="radio"] {
+	display: none;
+}
+
+div#navigation label {
+	position: relative;
+	width: 50%;
+	left: 25%;
+	padding: 0;
+	margin: 0;
+	background: #10A834;
+	border: 1px solid black;
+	border-radius: 10px;
+	box-shadow: -1px -1px 5px ForestGreen;
+	font: normal small-caps 700 24px/3 courier;
+	text-align: center; 
+}
+
+div#about_page {
+	position: absolute;
+	width: 80%;
+	height: 80%;
+	top: 11%;
+	left: 15%;
+	margin-top: 0.15%;
+	margin-left: 0.5%;
+	background: #ffffff;
+	border: 6px solid black;
+	border-left: 3px solid black;
+}
