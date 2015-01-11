@@ -5,6 +5,7 @@
 	<meta charset="utf-8"/>
 	<title>ViridianForge</title>
 	<link rel="stylesheet" media="all" href="css/fullsite.css" />
+	<script src="js/main.js"></script>
 </head>
 <body>
 	<div id="banner">
@@ -13,26 +14,30 @@
 	<div id="badge"></div>
 	<div id="navigation">
 		<form id="navgroup" name="navigation pane">
-			<p>
-				<input type="radio" name="about" id="aboutButton" value=1 checked="checked"/>
+				<input type="radio" name="navi" id="aboutButton" value=1 checked="checked" onclick="setVisible('about_page')"/>
 				<label for="aboutButton">About</label>
-			</p>
-			<p>
-				<input type="radio" name="projects" id="projectButton" value=2 />
+				
+				<input type="radio" name="navi" id="projectButton" value=2 onclick="setVisible('project_page')"/>
 				<label for="projectButton">Projects</label>
-			</p>
-			<p>
-				<input type="radio" name="CV" id="CVButton" value=3 />
+				
+				<input type="radio" name="navi" id="CVButton" value=3 onclick="setVisible('CV_page')"/>
 				<label for="CVButton">CV</label>
-			</p>
-			<p>
-				<input type="radio" name="contact" id="contactButton" value=4 />
+				
+				<input type="radio" name="navi" id="contactButton" value=4 onclick="setVisible('contact_page')"/>
 				<label for="contactButton">Contact</label>
-			</p>
 		</form>
 	</div>
-	<div id="about_page">
-		Here is some sample text!
+	<div id="about_page" class="content_page">
+		About Text!
+	</div>
+	<div id="project_page" class="content_page">
+		Project Text!
+	</div>
+	<div id="CV_page" class="content_page">
+		CV Text!
+	</div>
+	<div id="contact_page" class="content_page">
+		Contact Text!
 	</div>
 </body>
 </html>

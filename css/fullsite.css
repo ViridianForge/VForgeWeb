@@ -10,7 +10,7 @@ div#banner{
 	height: 10%;
 	left: 15%;
 	margin-left:5px;
-	background: #CD4F0B;
+	background: url("../images/bronzesheet.jpg") repeat;
 	border: 6px solid black;
 	border-bottom: 3px solid black;
 	border-radius: 0px 40px 0px 0px;
@@ -21,7 +21,7 @@ div#badge{
 	width: 10%;
 	height: 10%;
 	left: 5%;
-	background: #10A834;
+	background: url("../images/coppersheet.jpg") repeat;
 	border: 6px solid black;
 	border-bottom: 3px solid black;
 	border-radius: 40px 0px 0px 0px;
@@ -33,7 +33,7 @@ div#navigation{
 	height: 80%;
 	top: 11%;
 	left: 5%;
-	background: #CD4F0B;
+	background: url("../images/bronzesheet.jpg") repeat;
 	border: 6px solid black;
 	border-radius: 0px 0px 0px 270px;
 	margin-top: 3px;
@@ -43,21 +43,37 @@ input[type="radio"] {
 	display: none;
 }
 
-div#navigation label {
+#navgroup{
 	position: relative;
-	width: 50%;
-	left: 25%;
-	padding: 0;
-	margin: 0;
-	background: #10A834;
-	border: 1px solid black;
-	border-radius: 10px;
-	box-shadow: -1px -1px 5px ForestGreen;
-	font: normal small-caps 700 24px/3 courier;
-	text-align: center; 
+	margin-top: 20%;
 }
 
-div#about_page {
+div#navigation label {
+	display: block;
+	position: relative;
+	float: auto;
+	margin: 10%;
+	background: url("../images/coppersheet.jpg") repeat;
+	border: 1px solid black;
+	border-radius: 10px;
+	box-shadow: -1px 1px 5px Black;
+	font: normal small-caps 700 24px/3 courier;
+	text-align: center; 
+	
+	-moz-user-select: none;
+	-webkit-user-select: none;
+	-ms-user-select: none;
+}
+
+div#navigation input[type="radio"]:checked + label{
+	background: url("../images/copperSelected.jpg") repeat;
+}
+
+div#navigation input[type="radio"]:unchecked + label{
+	background: url("../images/coppersheet.jpg") repeat;
+}
+
+div.content_page {
 	position: absolute;
 	width: 80%;
 	height: 80%;
@@ -68,4 +84,21 @@ div#about_page {
 	background: #ffffff;
 	border: 6px solid black;
 	border-left: 3px solid black;
+	border-right: 4px solid black;
+}
+
+div#about_page {
+	display:block;
+}
+
+div#project_page {
+	display:none;
+}
+
+div#CV_page {
+	display:none;
+}
+
+div#contact_page {
+	display:none;
 }
