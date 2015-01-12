@@ -91,6 +91,22 @@ div#about_page {
 	display:block;
 }
 
+div#about_text{
+	position: relative;
+	width: 33%;
+	margin: 5%;
+	
+}
+
+div#about_img{
+	position: relative;
+	margin-right: 5%;
+	top: -33%;
+	float: right;
+	border: 2px solid black;
+	border-radius: 5px;
+}
+
 div#project_page {
 	display:none;
 }
@@ -99,6 +115,12 @@ div#CV_page {
 	display:none;
 }
 
-div#contact_page {
-	display:none;
+div#footer {
+	position: absolute;
+	background: url("../images/bronzesheet.jpg");
+	width:10%;
+	top: 85%;
+	left: 50%;
+	border: 6px solid black;
+	border-radius: 10px;
 }
