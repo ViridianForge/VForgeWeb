@@ -22,7 +22,6 @@
 				
 				<input type="radio" name="navi" id="CVButton" value=3 onclick="setVisible('CV_page')"/>
 				<label for="CVButton">CV</label>
-				
 		</form>
 	</div>
 	<div id="about_page" class="content_page">
@@ -44,20 +43,42 @@
 			</p>
 		</div>
 		<div id="about_img">
-			<img src="Images/selfie.jpg"/>
+			<img src="images/selfie.JPG"/>
 		</div>
 	</div>
 	<div id="project_page" class="content_page">
-		Project Text!
+		<div id="proj_nav">
+			<form id="proj_navgroup" name="project_navigation">
+				<input type="radio" name="prj_nav" id="chpChtButton" value=1 checked="checked" onclick="setVisible('chipChart_page')"/>
+				<label for="aboutButton">The Chip Chart</label>
+				
+				<input type="radio" name="prj_nav" id="celButton" value=2 onclick="setVisible('elaineLittle_page')"/>
+				<label for="projectButton">Dr. Carrie Elaine Little's Thesis Project</label>
+				
+				<input type="radio" name="prj_nav" id="thButton" value=3 onclick="setVisible('hawkes_page')"/>
+				<label for="CVButton">Dr. Teresa Hawkes' Thesis Project</label>
+				
+				<input type="radio" name="prj_nav" id="vicjenButton" value=3 onclick="setVisible('vicJen_page')"/>
+				<label for="CVButton">Santamaria and Rachwani Thesis Project</label>
+			</form>
+		</div>
+		<div id="chipChart_page" class="project_page">
+		</div>
+		<div id="elaineLittle_page" class="project_page">
+		</div>
+		<div id="hawkes_page" class="project_page">
+		</div>
+		<div id="vicJen_page" class="project_page">
+		</div>
 	</div>
 	<div id="CV_page" class="content_page">
 		CV Text!
 	</div>
 	<div id="footer">
-		<a href="https://twitter.com/ViridianForge"><img src="Images/twitter.png"/></a>
-		<a href="https://www.facebook.com/viridianforge"><img src="Images/thumbs_facebook.png"/></a>
-		<a href="www.linkedin.com/in/wayneamanselle"><img src="Images/thumbs_linkedin.png"/></a>
-		<a href="https://twitter.com/ViridianForge"><img src="Images/thumbs_google.png"/></a>
+		<a href="https://twitter.com/ViridianForge"><img src="images/twitter.png"/></a>
+		<a href="https://www.facebook.com/viridianforge"><img src="images/thumbs_facebook.png"/></a>
+		<a href="www.linkedin.com/in/wayneamanselle"><img src="images/thumbs_linkedin.png"/></a>
+		<a href="https://twitter.com/ViridianForge"><img src="images/thumbs_google.png"/></a>
 	</div>
 </body>
 </html>
