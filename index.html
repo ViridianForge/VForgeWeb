@@ -13,8 +13,8 @@
 	</div>
 	<div id="badge"></div>
 	<div id="navigation">
-		<form id="navgroup" name="navigation pane">
-				<input type="radio" name="navi" id="aboutButton" value=1 checked="checked" onclick="setVisible('about_page')"/>
+		<form id="navgroup" name="navigation pane" autocomplete="off">
+				<input type="radio" name="navi" id="aboutButton" value=1 onclick="setVisible('about_page')" checked="checked"/>
 				<label for="aboutButton">About</label>
 				
 				<input type="radio" name="navi" id="projectButton" value=2 onclick="setVisible('project_page')"/>
@@ -72,7 +72,7 @@
 		</div>
 	</div>
 	<div id="CV_page" class="content_page">
-		<h3>Education</h3>
+		<h3 id="cv_education" class="cvSegment">Education</h3>
 			<ul>
 				<li>University of Oregon</li>
 					<ul>
@@ -85,19 +85,19 @@
 						<li>Class of 2005</li>
 					</ul>
 			</ul>
-		<h3>Professional Experience</h3>
+		<h3 id="cv_Profession" class="cvSegment">Professional Experience</h3>
 			<ul>
 				<li>University of Oregon - Research Assistant</li>
 				<li>Southern California Earthquake Center - Software Engineering Intern</li>
 				<li>University of Minnesota, Morris - Student Lab Administrator</li>
 			</ul>
-		<h3>Teaching Experience</h3>
+		<h3 id="cv_Teaching" class="cvSegment">Teaching Experience</h3>
 			<ul>
 				<li>Intro to Programming</li>
 				<li>Business Calculus</li>
 			</ul>
-		<h3>Selected Publications</h3>
-		<h3>Selected Service</h3>
+		<h3 id="cv_Publications" class="cvSegment">Selected Publications</h3>
+		<h3 id="cv_Service" class="cvSegment">Selected Service</h3>
 			<ul>
 				<li>Chiptunes = Win</li>
 				<li>United Academics of the University of Oregon</li>

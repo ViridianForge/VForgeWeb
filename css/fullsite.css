@@ -124,3 +124,12 @@ div#footer {
 	border: 6px solid black;
 	border-radius: 10px;
 }
+
+h3.cvSegment {
+	position: relative;
+	font: bold 18px courier;
+}
+
+h3.cvSegment li{
+	list-style-type: none;
+}
