@@ -4,6 +4,8 @@ body{
 	background: #333333;
 }
 
+//Main Presentation Specific Stylings
+
 div#banner{
 	position: absolute;
 	width: 80%;
@@ -87,34 +89,6 @@ div.content_page {
 	border-right: 4px solid black;
 }
 
-div#about_page {
-	display:block;
-}
-
-div#about_text{
-	position: relative;
-	width: 33%;
-	margin: 5%;
-	
-}
-
-div#about_img{
-	position: relative;
-	margin-right: 5%;
-	top: -33%;
-	float: right;
-	border: 2px solid black;
-	border-radius: 5px;
-}
-
-div#project_page {
-	display:none;
-}
-
-div#CV_page {
-	display:none;
-}
-
 div#footer {
 	position: absolute;
 	background: url("../images/bronzesheet.jpg");
@@ -125,11 +99,66 @@ div#footer {
 	border-radius: 10px;
 }
 
-h3.cvSegment {
+//About Page Specific Sylings
+
+div#about_page {
+	display:block;
+}
+
+div#about_text{
+	position: relative;
+	top: 5%;
+	left: 5%;
+	width: 33%;
+	margin: 5%;
+	
+}
+
+div#about_img{
+	position: relative;
+	top: -50%;
+	left: 75%;
+	margin-right: 5%;
+}
+
+//Project Page Specific Stylings
+
+div#project_page {
+	display:none;
+}
+
+//CV Page Specific Stylings
+
+div#CV_page {
+	display:none;
+}
+
+div.cvSegment {
 	position: relative;
 	font: bold 18px courier;
 }
 
-h3.cvSegment li{
-	list-style-type: none;
+div#cv_Education {
+	top: 5%;
+	left: 5%;
+}
+
+div#cv_Profession {
+	top: 20%;
+	left: 5%;
+}
+
+div#cv_Teaching {
+	top: 45%;
+	left: 5%;
+}
+
+div#cv_Publications {
+	top: 5%;
+	left: 55%;
+}
+
+div#cv_Service {
+	top: 20%;
+	left: 55%;
 }
