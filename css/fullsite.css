@@ -4,36 +4,37 @@ body{
 	background: #333333;
 }
 
-//Main Presentation Specific Stylings
-
-div#banner{
-	position: absolute;
-	width: 80%;
-	height: 10%;
-	left: 15%;
-	margin-left:5px;
-	background: url("../images/bronzesheet.jpg") repeat;
-	border: 6px solid black;
-	border-bottom: 3px solid black;
-	border-radius: 0px 40px 0px 0px;
-}
+/*Main Body Specifications */
 
 div#badge{
 	position: absolute;
-	width: 10%;
-	height: 10%;
+	top: 4%;
 	left: 5%;
+	height: 10%;
+	width: 10%;
 	background: url("../images/coppersheet.jpg") repeat;
 	border: 6px solid black;
 	border-bottom: 3px solid black;
 	border-radius: 40px 0px 0px 0px;
 }
 
+div#banner{
+	position: absolute;
+	top: 4%;
+	left: 15.25%;
+	height: 10%;
+	width: 80%;	
+	background: url("../images/bronzesheet.jpg") repeat;
+	border: 6px solid black;
+	border-bottom: 3px solid black;
+	border-radius: 0px 40px 0px 0px;
+}
+
 div#navigation{
 	position: absolute;
 	width: 10%;
 	height: 80%;
-	top: 11%;
+	top: 14%;
 	left: 5%;
 	background: url("../images/bronzesheet.jpg") repeat;
 	border: 6px solid black;
@@ -41,9 +42,25 @@ div#navigation{
 	margin-top: 3px;
 }
 
+div.content_page {
+	position: absolute;
+	width: 80%;
+	height: 80%;
+	top: 14%;
+	left: 15%;
+	margin-top: 0.15%;
+	margin-left: 0.5%;
+	background: #ffffff;
+	border: 6px solid black;
+	border-left: 3px solid black;
+	border-right: 4px solid black;
+}
+
 input[type="radio"] {
 	display: none;
 }
+
+/*Navigation Specific Settings*/
 
 #navgroup{
 	position: relative;
@@ -67,6 +84,16 @@ div#navigation label {
 	-ms-user-select: none;
 }
 
+div#footer {
+	position: absolute;
+	background: url("../images/bronzesheet.jpg");
+	width:10%;
+	top: 93%;
+	left: 50%;
+	border: 6px solid black;
+	border-radius: 10px;
+}
+
 div#navigation input[type="radio"]:checked + label{
 	background: url("../images/copperSelected.jpg") repeat;
 }
@@ -75,31 +102,7 @@ div#navigation input[type="radio"]:unchecked + label{
 	background: url("../images/coppersheet.jpg") repeat;
 }
 
-div.content_page {
-	position: absolute;
-	width: 80%;
-	height: 80%;
-	top: 11%;
-	left: 15%;
-	margin-top: 0.15%;
-	margin-left: 0.5%;
-	background: #ffffff;
-	border: 6px solid black;
-	border-left: 3px solid black;
-	border-right: 4px solid black;
-}
-
-div#footer {
-	position: absolute;
-	background: url("../images/bronzesheet.jpg");
-	width:10%;
-	top: 90%;
-	left: 50%;
-	border: 6px solid black;
-	border-radius: 10px;
-}
-
-//About Page Specific Sylings
+/*About Page Specific Styling*/
 
 div#about_page {
 	display:block;
@@ -114,19 +117,18 @@ div#about_text{
 	margin: 5%;
 }
 
-//Project Page Specific Stylings
+/*Project Page Specific Styling*/
 
 div#project_page {
 	display:none;
 }
 
-//CV Page Specific Stylings
+/*CV Page Specific Styling*/
 
 div#CV_page {
 	display:none;
 }
 
-/*
 div#cv_Education {
 	position: relative;
 	font: bold 18px courier;
@@ -161,4 +163,3 @@ div#cv_Service {
 	top: 20%;
 	left: 55%;
 }
-*/
