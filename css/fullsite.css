@@ -117,6 +117,14 @@ div#about_text{
 	margin: 5%;
 }
 
+div#about_img {
+	position: relative;
+	top: -40%;
+	left: 70%;
+	width: 30%;
+	margin: 5%;
+}
+
 /*Project Page Specific Styling*/
 
 div#project_page {
@@ -129,37 +137,46 @@ div#CV_page {
 	display:none;
 }
 
+div#CV_page h3{
+	font: bold 18px courier;
+}
+
 div#cv_Education {
 	position: relative;
-	font: bold 18px courier;
+	font: bold 12px courier;
 	top: 5%;
 	left: 5%;
+	list-style-type: none;
 }
 
 div#cv_Profession {
 	position: relative;
-	font: bold 18px courier;
-	top: 20%;
+	font: bold 12px courier;
+	top: 10%;
 	left: 5%;
+	list-style-type: none;
 }
 
 div#cv_Teaching {
 	position: relative;
-	font: bold 18px courier;
-	top: 45%;
+	font: bold 12px courier;
+	top: 15%;
 	left: 5%;
+	list-style-type: none;
 }
 
 div#cv_Publications {
 	position: relative;
-	font: bold 18px courier;
-	top: 5%;
-	left: 55%;
+	font: bold 12px courier;
+	top: -70%;
+	left: 50%;
+	list-style-type: none;
 }
 
 div#cv_Service {
 	position: relative;
-	font: bold 18px courier;
-	top: 20%;
-	left: 55%;
+	font: bold 12px courier;
+	top: -50%;
+	left: 50%;
+	list-style-type: none;
 }
