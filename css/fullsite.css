@@ -120,7 +120,7 @@ div#about_text{
 div#about_img {
 	position: relative;
 	top: -40%;
-	left: 70%;
+	left: 65%;
 	width: 30%;
 	margin: 5%;
 }
@@ -146,23 +146,20 @@ div#cv_Education {
 	font: bold 12px courier;
 	top: 5%;
 	left: 5%;
-	list-style-type: none;
 }
 
 div#cv_Profession {
 	position: relative;
 	font: bold 12px courier;
-	top: 10%;
+	top: 7.5%;
 	left: 5%;
-	list-style-type: none;
 }
 
 div#cv_Teaching {
 	position: relative;
 	font: bold 12px courier;
-	top: 15%;
+	top: 10%;
 	left: 5%;
-	list-style-type: none;
 }
 
 div#cv_Publications {
@@ -170,13 +167,23 @@ div#cv_Publications {
 	font: bold 12px courier;
 	top: -70%;
 	left: 50%;
-	list-style-type: none;
 }
 
 div#cv_Service {
 	position: relative;
 	font: bold 12px courier;
-	top: -50%;
+	top: -67.5%;
 	left: 50%;
+}
+
+li.cvPaperTitle {
+	overflow: hidden;
+	text-overflow: ellipsis;
+	o-text-overflow: ellipsis;
+	white-space: nowrap;
+	width: 45%;
+}
+
+ul {
 	list-style-type: none;
 }
