@@ -24,6 +24,36 @@
 				<label for="CVButton">CV</label>
 		</form>
 	</div>
+	<div id="projectNav">
+		<form id="pNavGroup" name="projectNav pane" autocomplete="off">
+			<input type="radio" name="navi" id="cCButton" value=1 onclick="setVisible('chipchart_Page')"/>
+			<label for="celButton">Chipchart</label>
+			<input type="radio" name="navi" id="srtButton" value=1 onclick="setVisible('santrach_Page')"/>
+			<label for="celButton">Santamaria and Rachwani Thesis Work</label>
+			<input type="radio" name="navi" id="htwButton" value=1 onclick="setVisible('hawkes_Page')"/>
+			<label for="celButton">Hawkes Thesis Work</label>
+			<input type="radio" name="navi" id="ltwButton" value=1 onclick="setVisible('little_Page')"/>
+			<label for="celButton">Little Thesis Work</label>
+			<input type="radio" name="navi" id="backButton" value=1 onclick="setVisible('back')"/>
+			<label for="celButton">Back</label>
+		</form>
+	</div>
+	<div id="cvNav">
+		<form id="cvNavGroup" name="cvNav pane" autocomplete="off">
+			<input type="radio" name="navi" id="eduButton" value=1 onclick="setVisible('cv_Education')"/>
+			<label for="celButton">Education</label>
+			<input type="radio" name="navi" id="profButton" value=1 onclick="setVisible('cv_Profession')"/>
+			<label for="celButton">Professional Experience</label>
+			<input type="radio" name="navi" id="teachButton" value=1 onclick="setVisible('cv_Teaching')"/>
+			<label for="celButton">Teaching Experience</label>
+			<input type="radio" name="navi" id="pubButton" value=1 onclick="setVisible('cv_Publications')"/>
+			<label for="celButton">Publications</label>
+			<input type="radio" name="navi" id="servButton" value=1 onclick="setVisible('cv_Service')"/>
+			<label for="celButton">Service</label>
+			<input type="radio" name="navi" id="ltwButton" value=1 onclick="setVisible('back')"/>
+			<label for="celButton">Back</label>
+		</form>
+	</div>
 	<div id="about_page" class="content_page">
 		<div id="about_text">
 			<h2>Wayne "ViridianForge" Manselle</h2>
@@ -48,21 +78,6 @@
 		</div>
 	</div>
 	<div id="project_page" class="content_page">
-		<div id="proj_nav">
-			<form id="proj_navgroup" name="project_navigation">
-				<input type="radio" name="prj_nav" id="chpChtButton" value=1 checked="checked" onclick="setVisible('chipChart_page')"/>
-				<label for="aboutButton">The Chip Chart</label>
-				
-				<input type="radio" name="prj_nav" id="celButton" value=2 onclick="setVisible('elaineLittle_page')"/>
-				<label for="projectButton">Dr. Carrie Elaine Little's Thesis Project</label>
-				
-				<input type="radio" name="prj_nav" id="thButton" value=3 onclick="setVisible('hawkes_page')"/>
-				<label for="CVButton">Dr. Teresa Hawkes' Thesis Project</label>
-				
-				<input type="radio" name="prj_nav" id="vicjenButton" value=3 onclick="setVisible('vicJen_page')"/>
-				<label for="CVButton">Santamaria and Rachwani Thesis Project</label>
-			</form>
-		</div>
 		<div id="chipChart_page" class="project_page">
 		</div>
 		<div id="elaineLittle_page" class="project_page">

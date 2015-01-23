@@ -84,6 +84,40 @@ div#navigation label {
 	-ms-user-select: none;
 }
 
+div#projectNav{
+	display:none;
+	position: relative;
+	float: auto;
+	margin: 10%;
+	background: url("../images/coppersheet.jpg") repeat;
+	border: 1px solid black;
+	border-radius: 10px;
+	box-shadow: -1px 1px 5px Black;
+	font: normal small-caps 700 24px/3 courier;
+	text-align: center; 
+	
+	-moz-user-select: none;
+	-webkit-user-select: none;
+	-ms-user-select: none;
+}
+
+div#cvNav{
+	display:none;
+	position: relative;
+	float: auto;
+	margin: 10%;
+	background: url("../images/coppersheet.jpg") repeat;
+	border: 1px solid black;
+	border-radius: 10px;
+	box-shadow: -1px 1px 5px Black;
+	font: normal small-caps 700 24px/3 courier;
+	text-align: center; 
+	
+	-moz-user-select: none;
+	-webkit-user-select: none;
+	-ms-user-select: none;
+}
+
 div#footer {
 	position: absolute;
 	background: url("../images/bronzesheet.jpg");
