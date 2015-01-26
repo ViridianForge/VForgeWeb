@@ -56,6 +56,14 @@ div.content_page {
 	border-right: 4px solid black;
 }
 
+div.fade-out {
+	opacity:0;
+}
+
+div.fade-in {
+	opacity:1;
+}
+
 /*Navigation Specific Settings*/
 
 #mainMenu{
@@ -91,17 +99,11 @@ button.menuItem{
 }
 
 button.menuItem:active{
-	display: block;
-	position: relative;
-	left: -25%;
-	width: 100%;
-	margin: 10%;
 	background: url("../images/copperSelected.jpg") repeat;
-	border: 1px solid black;
-	border-radius: 10px;
-	box-shadow: -1px 1px 5px Black;
-	font: normal small-caps 700 24px/3 courier;
-	text-align: center; 
+}
+
+button.menuItem:hover{
+	background: url("../images/copperSelected.jpg") repeat;
 }
 
 div#footer {

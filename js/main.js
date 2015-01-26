@@ -17,6 +17,8 @@ function setVisible(newPanel){
 //Switches up the current navigation menu displayed
 //ToDo -- Use a class switch to animate the exit and entry
 function setNavGroup(oldNav, newNav){
+	document.getElementById(oldNav).className = 'fade-out';
 	document.getElementById(oldNav).style.display = 'none';
+	document.getElementById(oldNav).className = 'fade-in';
 	document.getElementById(newNav).style.display = 'block';
 }
