@@ -56,21 +56,31 @@ div.content_page {
 	border-right: 4px solid black;
 }
 
-input[type="radio"] {
-	display: none;
-}
-
 /*Navigation Specific Settings*/
 
-#navgroup{
+#mainMenu{
+	display: block;
 	position: relative;
 	margin-top: 20%;
 }
 
-div#navigation label {
+#projectMenu{
+	display: none;
+	position: relative;
+	margin-top: 20%;
+}
+
+#cvMenu{
+	display: none;
+	position: relative;
+	margin-top: 20%;
+}
+
+button.menuItem{
 	display: block;
 	position: relative;
-	float: auto;
+	left: -25%;
+	width: 100%;
 	margin: 10%;
 	background: url("../images/coppersheet.jpg") repeat;
 	border: 1px solid black;
@@ -78,44 +88,20 @@ div#navigation label {
 	box-shadow: -1px 1px 5px Black;
 	font: normal small-caps 700 24px/3 courier;
 	text-align: center; 
-	
-	-moz-user-select: none;
-	-webkit-user-select: none;
-	-ms-user-select: none;
 }
 
-div#projectNav{
-	display:none;
+button.menuItem:active{
+	display: block;
 	position: relative;
-	float: auto;
+	left: -25%;
+	width: 100%;
 	margin: 10%;
-	background: url("../images/coppersheet.jpg") repeat;
+	background: url("../images/copperSelected.jpg") repeat;
 	border: 1px solid black;
 	border-radius: 10px;
 	box-shadow: -1px 1px 5px Black;
 	font: normal small-caps 700 24px/3 courier;
 	text-align: center; 
-	
-	-moz-user-select: none;
-	-webkit-user-select: none;
-	-ms-user-select: none;
-}
-
-div#cvNav{
-	display:none;
-	position: relative;
-	float: auto;
-	margin: 10%;
-	background: url("../images/coppersheet.jpg") repeat;
-	border: 1px solid black;
-	border-radius: 10px;
-	box-shadow: -1px 1px 5px Black;
-	font: normal small-caps 700 24px/3 courier;
-	text-align: center; 
-	
-	-moz-user-select: none;
-	-webkit-user-select: none;
-	-ms-user-select: none;
 }
 
 div#footer {
@@ -126,14 +112,6 @@ div#footer {
 	left: 50%;
 	border: 6px solid black;
 	border-radius: 10px;
-}
-
-div#navigation input[type="radio"]:checked + label{
-	background: url("../images/copperSelected.jpg") repeat;
-}
-
-div#navigation input[type="radio"]:unchecked + label{
-	background: url("../images/coppersheet.jpg") repeat;
 }
 
 /*About Page Specific Styling*/
@@ -165,49 +143,47 @@ div#project_page {
 	display:none;
 }
 
-/*CV Page Specific Styling*/
-
-div#CV_page {
+div#chipChart_page{
 	display:none;
 }
 
-div#CV_page h3{
-	font: bold 18px courier;
+div#emg_page{
+	display:none;
 }
+
+div#ekg_page{
+	display:none;
+}
+
+div#cv_page {
+	display:none;
+}
+
+/*CV Page Specific Styling*/
 
 div#cv_Education {
-	position: relative;
+	display:none;
 	font: bold 12px courier;
-	top: 5%;
-	left: 5%;
 }
 
-div#cv_Profession {
-	position: relative;
+div#cv_Professional {
+	display:none;
 	font: bold 12px courier;
-	top: 7.5%;
-	left: 5%;
 }
 
 div#cv_Teaching {
-	position: relative;
+	display:none;
 	font: bold 12px courier;
-	top: 10%;
-	left: 5%;
 }
 
 div#cv_Publications {
-	position: relative;
+	display:none;
 	font: bold 12px courier;
-	top: -70%;
-	left: 50%;
 }
 
 div#cv_Service {
-	position: relative;
+	display:none;
 	font: bold 12px courier;
-	top: -67.5%;
-	left: 50%;
 }
 
 li.cvPaperTitle {

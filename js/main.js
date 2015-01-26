@@ -2,13 +2,21 @@
 * Main js file to dictate functionality of the main ViridianForge website.
 */
 
-//Seed value
-var formerVis = 'about_page';
+//Storage variable to keep track of the currently displayed panel
+var curPanel = 'about_page';
 
 //Change which div is visible
-function setVisible(newVis){
-	document.getElementById(formerVis).style.display = 'none';
-	document.getElementById(newVis).style.display = 'block';
+//ToDo -- Use a class switch to animate the exit and entry
+function setVisible(newPanel){
+	document.getElementById(curPanel).style.display = 'none';
+	document.getElementById(newPanel).style.display = 'block';
 	
-	formerVis = newVis;
+	curPanel = newPanel;
+}
+
+//Switches up the current navigation menu displayed
+//ToDo -- Use a class switch to animate the exit and entry
+function setNavGroup(oldNav, newNav){
+	document.getElementById(oldNav).style.display = 'none';
+	document.getElementById(newNav).style.display = 'block';
 }
