@@ -30,6 +30,10 @@ div#banner{
 	border-radius: 0px 40px 0px 0px;
 }
 
+div#banner img{
+	height: 100%;
+}
+
 div#navigation{
 	position: absolute;
 	width: 10%;
@@ -54,6 +58,7 @@ div.content_page {
 	border: 6px solid black;
 	border-left: 3px solid black;
 	border-right: 4px solid black;
+	overflow: auto;
 }
 
 div.fade-out {
