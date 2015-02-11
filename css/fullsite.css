@@ -18,6 +18,14 @@ div#badge{
 	border-radius: 40px 0px 0px 0px;
 }
 
+div#badge img{
+	position: relative;
+	height:90%;
+	width: 80%;
+	top: 5%;
+	left: 17.5%;
+}
+
 div#banner{
 	position: absolute;
 	top: 4%;
