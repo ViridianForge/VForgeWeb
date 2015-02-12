@@ -100,8 +100,6 @@ div.project_images{
 
 div.image_container{
 	position:relative;
-	height:100%;
-	width:100%;
 	border: 2px solid black;
 }
 
@@ -174,10 +172,11 @@ div#about_text{
 
 div#about_img {
 	position: relative;
-	top: -40%;
-	left: 65%;
+	height: 100%;
 	width: 30%;
+	float: right;
 	margin: 5%;
+	overflow: auto;
 }
 
 /*Project Page Specific Styling*/
