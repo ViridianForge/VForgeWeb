@@ -26,9 +26,10 @@
 		
 		<div id="projectMenu">
 			<ul>
-				<li><button class="menuItem" onclick="setVisible('chipChart_page')">Chipchart</button></li>
+				<li><button class="menuItem" onclick="setVisible('chipChart_page')">ChipWINdex</button></li>
 				<li><button class="menuItem" onclick="setVisible('emg_page')">EMG Tools</button></li>
 				<li><button class="menuItem" onclick="setVisible('ekg_page')">EKG Tools</button></li>
+				<li><button class="menuItem" onclick="setVisible('kin_page')">KIN Tools</button></li>
 				<li><button class="menuItem" onclick="setNavGroup('projectMenu','mainMenu'); setVisible('about_page');">About</button></li>
 				<li><button class="menuItem" onclick="setNavGroup('projectMenu','cvMenu'); setVisible('cv_page');">CV</button></li>
 			</ul>
@@ -63,7 +64,7 @@
 			In my spare time, I enjoy volunteering my time with the amazing folks at 
 			<a href="http://chiptuneswin.com/blog/">Chiptunes=WIN</a> as a writer, editor and developer of cool tools.
 			Additionally, I help lead a weekly Systema study group here in Eugene to improve both my understanding of the 
-			Martial Art and my teaching skills.
+			Martial Arts and my teaching skills.
 			</p>
 		</div>
 		<div id="about_img">
@@ -72,7 +73,7 @@
 	</div>
 	
 	<div id="project_page" class="content_page">
-		This page gives examples of the various projects I've worked on.
+		Over the years, I've worked on a number of projects, both for fun and for professional reasons.  Use the buttons to the left to learn more about them!
 	</div>
 	
 	<div id="cv_page" class="content_page">
@@ -81,15 +82,89 @@
 	
 	<!-- Project Content Divs -->
 	<div id="chipChart_page" class="content_page">
-		Chipchart Stuff
+		<div class="project_text">
+			<p>
+			The ChipWINdex is an ongoing labor of love developed in the spirit of Erin McQuisten's
+			exquisite <a href="http://chiptuneswin.com/blog/chipartists-list-and-map/">ChipMap</a>.  
+			Primarily, it is intended to provide a historical index of officially released albums 
+			and singles in the Chiptune, VGM, and Nerdcore musical communities.  Secondarily, it 
+			was a fun excuse to teach myself a combination a HTML5, CSS, Javascript, and whatever
+			future development will require.
+			</p>
+		</div>
+		<div class="project image">
+		
+		</div>
 	</div>
 	
 	<div id="emg_page" class="content_page">
-		EMG tools for Victor and Jennifer
+		<div class="project_text">
+			<p>
+			The analysis of electromyographic (EMG) data was a major component of the research done 
+			by Drs. Rachwani and Santamaria in their study of reaching behavior in typically developing 
+			infants and children severely affected by cerebral palsy.
+			</p>
+			<p>
+			To facilitate their research, I developed and implemented two lines of software in the 
+			MATLAB environment.  The first was an analytic suite developed to the researchers 
+			specifications that extracted a series of statistical measures from the EMG.  The second,
+			pictured to the right, was a graphical aid to enable the researchers to easily identify 
+			muscle activations in a type of EMG where identifying muscle activity is typically quite
+			difficult.
+			</p>
+		</div>
+		<div class="project_images">
+		</div>
 	</div>
 	
 	<div id="ekg_page" class="content_page">
-		EKG tools for Victor and Jennifer
+		<div class="project_text">
+			<p>
+			When analysing electromyographic (EMG) data, electrocardiographic (EKG) artifact present
+			in the data collection can make it difficult to accurately assess muscle activity.  When
+			<a href="http://www.hartford.edu/enhp/about/faculty/rehabsciences/saavedra.aspx">Dr. Sandy Saavedra</a>
+			and I first approached this problem in 2008, the solutions we were 
+			aware of either allowed too much EKG to remain in the data, or removed more EMG data than
+			we were comfortable with.  To this end, we created a software suite based on work in <>'s paper
+			<> in the MATLAB environment.  The software isolated the time locations of heart beats 
+			based on the EMG channel with the strongest EKG artifact and then used this information
+			to create an EKG wave for each EMG channel that was then removed.
+			</p>
+			<p>
+			When Drs. Rachwani and Santamaria began replicating the methodology in Dr. Saavedra's 
+			study, I revisited this work.  Working very closely with the researchers, we overhauled
+			both the functionality and design of the system, yielding a system that was more robust
+			and usable.
+			</p>
+		</div>
+		<div class="project_images">
+		</div>
+	</div>
+	
+	<div id="kin_page" class="content_page">
+		<div class="project_text">
+			<p>
+			In her thesis work, <a href="http://www.hartford.edu/enhp/about/faculty/rehabsciences/saavedra.aspx">Dr. Sandy Saavedra</a> 
+			engaged in the analysis of the kinematics of reaching  in both typically developing infants 
+			and children with varying severities of Cerebral Palsy.  Using MATLAB, we worked together to
+			produce a suite of tools to expedite the researcher's abilities to easily visually inspect
+			this data, and generate statistical analyses of the data in multiple dimensions.
+			</p>
+			<p>
+			Numerous researchers continued pursuing this line of research, and I worked with them to 
+			incrementally improve upon both the design and functionality of the software, extending to
+			incorporate research notes from coded videos of associated reaches to isolate the exact 
+			begin and end of reaching events.
+			</p>
+		</div>
+		<div class="project_images">
+			<div class="image_container">
+				<img src="images\KinTrialApprove.png" alt="GUI to select valid Kinematic Trials"/>
+			</div>
+			<div class="image_container">
+				<img src="images\KinOnsetSelect.png" alt="GUI to compare visual onset times to velocity data"/>
+			</div>
+		</div>
 	</div>
 	
 	<!-- Cirriculum Vitae Content Divs -->

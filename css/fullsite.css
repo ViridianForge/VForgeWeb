@@ -39,7 +39,11 @@ div#banner{
 }
 
 div#banner img{
-	height: 100%;
+	position: relative;
+	height: 90%;
+	width: 45%;
+	top: 5%;
+	left: 0.5%;
 }
 
 div#navigation{
@@ -66,7 +70,6 @@ div.content_page {
 	border: 6px solid black;
 	border-left: 3px solid black;
 	border-right: 4px solid black;
-	overflow: auto;
 }
 
 div.fade-out {
@@ -75,6 +78,31 @@ div.fade-out {
 
 div.fade-in {
 	opacity:1;
+}
+
+div.project_text{
+	position:relative;
+	height:100%;
+	width:40%;
+	float: left;
+	overflow: auto;
+	margin-left: 5%;
+	margin-top: 5%;
+}
+
+div.project_images{
+	position:relative;
+	height:100%;
+	width: 50%;
+	float: right;
+	overflow: auto;
+}
+
+div.image_container{
+	position:relative;
+	height:100%;
+	width:100%;
+	border: 2px solid black;
 }
 
 /*Navigation Specific Settings*/
@@ -171,6 +199,10 @@ div#ekg_page{
 }
 
 div#cv_page {
+	display:none;
+}
+
+div#kin_page {
 	display:none;
 }
 
