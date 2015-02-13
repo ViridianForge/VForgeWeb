@@ -20,10 +20,9 @@ div#badge{
 
 div#badge img{
 	position: relative;
-	height:90%;
-	width: 80%;
-	top: 5%;
-	left: 17.5%;
+	height: 95%;
+	width: 90%;
+	left: 5%;
 }
 
 div#banner{
@@ -41,9 +40,9 @@ div#banner{
 div#banner img{
 	position: relative;
 	height: 90%;
-	width: 45%;
+	width: 25%;
+	left: 33%;
 	top: 5%;
-	left: 0.5%;
 }
 
 div#navigation{
